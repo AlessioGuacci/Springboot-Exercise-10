@@ -1,0 +1,12 @@
+Spring:
+  datasource:
+   url: jdbc:mysql://127.0.0.1:3306
+   username: root
+   password: Raptor.221
+Jpa:
+  database: mysql
+  show_sql: true
+  hibernate:
+    ddl-auto: create-drop
+Server:
+  port: 5050
